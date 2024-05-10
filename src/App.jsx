@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='card1'>
     <div className='main_cont'>
       <div> <h1>Welcome </h1>
         <form className='signin'>
@@ -24,7 +24,7 @@ function App() {
     </div>
       
        
-    </>
+    </div>
   )
 }
 

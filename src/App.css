@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
   
 }
 
@@ -35,8 +36,9 @@
   }
 }
 
-.card {
-  padding: 2em;
+.card1 {
+    display: grid;
+  justify-content: center;
 }
 
 .read-the-docs {
@@ -45,6 +47,7 @@
  .main_cont{
   display: flex;
   flex-direction: row;
+  justify-self: center;
  }
  .signin{
   display: flex;
