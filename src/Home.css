@@ -13,7 +13,15 @@
     position: relative;
     max-width: auto;
     margin: 0 auto;
+    background-image: url("./assets/tomatoes-1561565_1920.jpg");
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
+  
   }
+ 
   
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
@@ -136,3 +144,8 @@
       left: 0%;
     }
   }
+  img{
+    width:265px ;
+    height: 403px;
+  }
+  
