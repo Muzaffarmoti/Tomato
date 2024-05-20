@@ -17,7 +17,7 @@ function App() {
           <input type='password' id='pass'></input><br />
           <button type='submit'>Sign In</button>
         </form>
-               </div>
+       </div>
    
     <img src={welcome} alt="" />
 
