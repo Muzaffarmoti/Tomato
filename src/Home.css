@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+   
   }
   
   /* Set a background color */
   body {
     background-color: #474e5d;
     font-family: Helvetica, sans-serif;
+    color: black;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -13,15 +15,16 @@
     position: relative;
     max-width: auto;
     margin: 0 auto;
-    background-image: url("./assets/tomatoes-1561565_1920.jpg");
+    /* background-image: url("./assets/tomatoes-1561565_1920.jpg"); */
     background-position: 0%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-     
-  
-  }
- 
+       }
+ .img_dim{
+    width: 110px;
+    height: 110px;
+ }
   
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
@@ -107,7 +110,7 @@
     position: relative;
     border-radius: 6px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   
   
@@ -149,3 +152,16 @@
     height: 403px;
   }
   
+  .Content_text{
+    text-align: justify ;
+  }
+
+  .content_pic_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .content_pic_text span{
+    font-size: 10px;
+  }

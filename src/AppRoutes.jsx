@@ -2,6 +2,9 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import App from './App';
+import About from './About';
+import Contact from './Contact';
+import Temperature from './Temperature';
 
 function AppRoutes() {
   return (
@@ -9,6 +12,10 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<App/>} />
         <Route path="/home" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/temperature" element={<Temperature/>} />
+        <Route path="/logout" element={<App/>} />
       </Routes>
     </div>
   );

@@ -2,7 +2,7 @@
 #root {
   max-width: 1000px;
   
-  margin: 40px auto;
+  margin:  auto;
   padding: 2rem;
   text-align: center;
 
@@ -57,4 +57,8 @@
  }
  .signin > label{
   align-self: start;
+ }
+ img{
+  width: 500px;
+  height: 403px;
  }

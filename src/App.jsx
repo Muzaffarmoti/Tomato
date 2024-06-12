@@ -3,11 +3,15 @@
 import './App.css'
 import welcome from '/welcome.png'
 
+
 function App() {
   
 
   return (
+ 
+    
     <div className='card1'>
+   
     <div className='main_cont'>
       <div> <h1>Welcome </h1>
         <form className='signin'>
@@ -22,9 +26,7 @@ function App() {
     <img src={welcome} alt="" />
 
     </div>
-      
-       
-    </div>
+       </div>
   )
 }
 
