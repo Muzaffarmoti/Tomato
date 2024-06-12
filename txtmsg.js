@@ -2,8 +2,8 @@ const retrieve_numbers = require('./db/retrieve_numbers');
 const unique_cities = require('./db/unique_cities');
 const temperature_retrieve = require('./db/temperature_retrieve');
 
-const accountSid = 'ACdfaf9a4d85e0b7afd08e2e62728f91e2';
-const authToken = 'b8b15d346304fc352cf0b2907f044fe4';
+const accountSid = process.env.accountSid;
+const authToken = process.env.authToken;
 
 // retrieve_numbers(clit)
 //     .then(numbers => {
