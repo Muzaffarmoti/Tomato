@@ -54,9 +54,15 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  width: 500px;
+  height: auto;
  }
  .signin > label{
   align-self: start;
+ }
+ .signin >input{
+  height: 25px;
+  
  }
  img{
   width: 500px;
